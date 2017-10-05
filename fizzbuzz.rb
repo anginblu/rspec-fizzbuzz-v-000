@@ -6,7 +6,5 @@ def fizzbuzz (number)
      "Fizz"
   elsif number.to_i % 5 == 0
      "Buzz"
-  else
-    puts ""
   end
 end
