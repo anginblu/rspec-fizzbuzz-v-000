@@ -1,13 +1,12 @@
-puts "What's your number?"
 
-number = gets.strip.to_i
-
-def FixxBuzz (number = gets.strip.to_i)
-  if number/3.class == integer && number/5.class == integer
+def FixxBuzz
+  puts "What's your number?"
+  number = gets.strip.to_i
+if number % 3 == 0 && umber % 5 == 0
     puts "FizzBuzz"
-  else if number/3.class == integer
+  else if umber % 3 == 0
     puts "Fizz"
-  else if number/5.class == integer
+  else if umber % 5 == 0
       puts "Buzz"
   else puts ""
 end
