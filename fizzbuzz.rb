@@ -12,4 +12,4 @@ def FixxBuzz (number = gets.strip.to_i)
   else puts ""
 end
 
-FizzBuzz (number)
+FizzBuzz (15)
