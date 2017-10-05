@@ -9,6 +9,7 @@ def FixxBuzz (number = gets.strip.to_i)
     puts "Fizz"
   else if number/5.class == integer
       puts "Buzz"
+  else puts ""
 end
 
 FizzBuzz
