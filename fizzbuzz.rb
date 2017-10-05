@@ -7,6 +7,6 @@ def FizzBuzz (number)
   elsif number % 5 == 0
     puts "Buzz"
   else
-    ""
+    puts ""
   end
 end
