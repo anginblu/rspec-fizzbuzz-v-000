@@ -1,6 +1,6 @@
 puts "What's your number?"
 
-number = gets.strip
+number = gets.strip.to_i
 
 def FixxBuzz (number = gets.strip.to_i)
   if number/3.class == integer && number/5.class == integer
