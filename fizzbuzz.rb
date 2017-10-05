@@ -9,6 +9,4 @@ if number.to_i % 3 == 0 && number.to_i % 5 == 0
   else if number.to_i % 5 == 0
        "Buzz"
      end
-  else ""
-  end
 end
