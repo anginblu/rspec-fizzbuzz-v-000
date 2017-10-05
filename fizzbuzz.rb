@@ -1,12 +1,10 @@
 
 def FizzBuzz (number)
 if number % 3 == 0 && number % 5 == 0
-     "FizzBuzz"
-   end
+     puts "FizzBuzz"
   else if number % 3 == 0
-     "Fizz"
-   end
+     puts"Fizz"
   else if number % 5 == 0
-       "Buzz"
-     end
+      puts "Buzz"
+  end
 end
