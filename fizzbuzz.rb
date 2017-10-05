@@ -1,10 +1,12 @@
 
-def FizzBuzz (number)
-if number % 3 == 0 && number % 5 == 0
-     puts "FizzBuzz"
-  else if number % 3 == 0
-     puts"Fizz"
-  else if number % 5 == 0
-      puts "Buzz"
-  end
+def FizzBuzz
+  if number % 3 == 0 && number % 5 == 0
+    "FizzBuzz"
+  elsif number % 3 == 0
+    "Fizz"
+  elsif number % 5 == 0
+    "Buzz"
+  else 
+    ""
+  end 
 end
